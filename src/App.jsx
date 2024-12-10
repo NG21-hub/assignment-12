@@ -1,10 +1,12 @@
-import CardList from "./components/CardList"
-import './App.css'
+import React from 'react';
+import TodoApp from './ToDoApp'; 
 
-function App(){
-  return <div>
-    <CardList/>
-  </div>
+function App() {
+  return (
+    <div>
+      <TodoApp />
+    </div>
+  );
 }
 
-export default App
+export default App;
